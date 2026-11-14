@@ -1,0 +1,17 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "auth": {
+    "providers": {
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "Daily Planner",
+        "supportEmail": "9700casual@gmail.com",
+        "authorizedRedirectUris": [
+          "https://daily-planner-9700.firebaseapp.com/__/auth/handler",
+          "http://localhost:5173"
+        ]
+      }
+    }
+  }
+}
